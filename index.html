@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studio Mais Saúde</title>
+    <link rel="stylesheet" href="./css/estilizacao.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Cadastro Studio Mais Saúde</h1>
+
+        <form>
+            
+            <div class="form-control">
+                <label for="nome">Nome Completo:</label>
+                <input type="text" id="nome" />
+            </div>
+
+            <div class="form-control">
+                <label for="datanascimento">Data de Nascimento:</label>
+                <input type="date" id="datanascimento" />
+            </div>
+
+            <div class="form-control">
+                <label for="email">E-mail:</label>
+                <input type="text" id="email" />
+            </div>
+
+            <div class="form-control">
+                <label for="telefone">Telefone:</label>
+                <input type="text" id="telefone" />
+            </div>
+
+            <div class="form-control">
+                <label for="senha">Senha:</label>
+                <input type="password" id:"senha" />
+            </div>
+
+            <div class="form-control">
+                <label for="selecionar">Selecione o tipo de atividade desejada:</label>
+                <select id="atividades">
+                    <option value="">Selecione</option>
+                    <option value="Musculacao">Musculação</option>
+                    <option value="pilates">Pilates</option>
+                    <option value="spinning">Spinning</option>
+                    <option value="yoga">Yoga</option>
+                    <option value="hidroginastica">Hidroginastica</option>
+                </select>
+            </div>
+
+            <div class="form-control">
+                <label for="restricoes">Tem algum tipo de doença crônica? (DCNTs)</label>
+                <select id="restricoes">
+                    <option value="">Selecione</option>
+                    <option value="sim">Sim</option>
+                    <option value="nao">Não</option>
+                </select>
+            </div>
+
+            <div class="form-control">
+                <button type="submit" class="btn-cadastro">Cadastrar</button>
+                <button type="reset" class="btn-limpar">Limpar tudo</button>
+            </div>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
